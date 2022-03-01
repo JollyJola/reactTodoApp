@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+}
+
+.headFrame{
+  border: 1px solid paleturquoise;
+  margin: 20px 400px ;
+  padding: 20px;
+}
+
+.headFrame input{
+  width: 450px;
+  height: 50px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+.headFrame button{
+  width: 100px;
+  height: 25px;
+  background-color: paleturquoise;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.eachTask div{
+  border: 1px ;
+  margin: 20px 415px 20px 370px;
+  background-color: whitesmoke;
+  list-style-type: none;
+  height: 50px;
+  padding: 15px 15px 20px 15px;
+  box-shadow: 5px;
+}
+
+.eachTask div li{
+  padding: 15px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.complete{
+  text-decoration: line-through;
+}
+
+.icons button{
+  padding: 5px;
+  margin: 5px;
+  background-color: paleturquoise;
+  border: none;
+  cursor: pointer;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
